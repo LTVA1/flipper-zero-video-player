@@ -1,6 +1,6 @@
 #pragma once
 
-#include <cli/cli.h>
+#include <cli/cli_main_shell.h>
 #include <dialogs/dialogs.h>
 #include <furi.h>
 #include <gui/gui.h>
@@ -12,10 +12,10 @@
 
 #include <gui/view_dispatcher.h>
 
-#define APPSDATA_FOLDER "/ext/apps_data"
+#define APPSDATA_FOLDER     "/ext/apps_data"
 #define VIDEO_PLAYER_FOLDER "/ext/apps_data/video_player"
 //#define VIDEO_PLAYER_FOLDER STORAGE_APP_DATA_PATH_PREFIX
-#define FILE_NAME_LEN 64
+#define FILE_NAME_LEN       64
 
 typedef enum {
     EventTypeInput,
