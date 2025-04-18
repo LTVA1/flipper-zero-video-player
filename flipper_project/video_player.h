@@ -1,6 +1,5 @@
 #pragma once
 
-#include <cli/cli_main_shell.h>
 #include <dialogs/dialogs.h>
 #include <furi.h>
 #include <gui/gui.h>
